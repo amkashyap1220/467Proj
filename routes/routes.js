@@ -4,7 +4,7 @@ const router = express.Router();
 const db = require("../database/parts");
 
 router.get("/", (req, res) => {
-  res.redirect("/api/parts");
+  // res.redirect("/api/parts");
 });
 
 
